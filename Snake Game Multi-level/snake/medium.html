@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang 'en'>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title>My Snake</title>
+<link rel="stylesheet" type="text.css" href="css/style.css">
+</head>
+<style>
+body,html{ background-image: url("css/mediumLevel.png");
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 100%;
+width:100%;   
+margin:0;
+
+}
+
+h1{
+font-size:50px;
+font-family:Impact,Charcoal,sans-serif;	
+border-style:dotted;
+color:#ffffff;
+}
+p{color:white;
+font-family:Arial-Black;
+font-size:20px;
+}
+</style>
+
+
+<body onload= 'awakeMed()'>
+
+<div id= 'main2'>
+				<article class = 'entry'>
+					<div class = 'entry-wrapper'>
+                                            <header class = 'entry-header'>
+                                                <center>
+                                                    <h1 class = 'entry-title'  style = 'font-size: 32px,word-spacing:30px'><marquee behaviour="scroll" direction="left" scrollamount="10"><span id= 'gameMed'> Medium Level </span></marquee></h1>
+                                                </center>
+						</header>
+						</div>
+						
+						<div class= 'entry-cotent' style= 'text-align: justify'>
+							<center>
+								<div style= 'width: 502px'>
+									<div style='width: 251px; float: left'>
+										<p style= 'text-align: left'><strong><span id= 'textScore2'>Score:</span></strong>
+											<span id= 'scoreMed'>0</span>
+										</p>
+									</div>
+									
+									<div style='width: 251px; float: right'>
+										<p style= 'text-align: left'><strong><span id= 'textSpeed2'>Speed:</span></strong>
+											<span id= 'milliMed'>100</span>
+										</p>
+									</div>
+								</div>
+								<canvas id= 'base2' style= 'background-color: #D5F26F; border: 10px solid #39996C' width = '750' height= '500'></canvas>
+								<div>
+																
+							<p>
+										[Score -> R]
+										
+										[Help -> H] 
+                                                                                <br/> <br/>	
+									</p>
+								</div>
+							</center>
+						</div>
+					</article>
+				</div>
+
+  <script type='text/javascript' src='javascript/mediumLev.js'></script>
+</body>
+</html>

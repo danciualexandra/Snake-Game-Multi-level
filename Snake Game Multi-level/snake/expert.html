@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang 'en'>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title>My Snake</title>
+<link rel="stylesheet" type="text.css" href="css/style.css">
+<style>
+body,html{ background-image: url("css/hd.jpg");
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 100%; 
+margin:0;
+
+}
+
+h2{
+font-size:50px;
+font-family:Impact,Charcoal,sans-serif;	
+border-style:dotted;
+color:#ffffff;
+}
+p{color:white;
+font-family:Arial-Black;
+font-size:20px;
+}
+</style>
+</head>
+
+<body onload= 'awakeExpert()'>
+
+<div id= 'main4'>
+				<article class = 'entry'>
+					<div class = 'entry-wrapper'>
+                                            <header class = 'entry-header'>
+                                                <center>
+                                                    <h1 class = 'entry-title'  style = 'font-size: 32px,word-spacing:30px'><marquee behaviour="scroll" direction="left" scrollamount="10"><span id= 'gameExp'> Snake Game</span></marquee></h1>
+                                                </center>
+						</header>
+						</div>
+						
+						<div class= 'entry-cotent' style= 'text-align: justify'>
+							<center>
+								<div style= 'width: 502px'>
+									<div style='width: 251px; float: left'>
+										<p style= 'text-align: left'><strong><span id= 'textScore4'>Score:</span></strong>
+											<span id= 'scoreExp'>0</span>
+										</p>
+									</div>
+									
+									<div style='width: 251px; float: right'>
+										<p style= 'text-align: left'><strong><span id= 'textSpeed4'>Speed:</span></strong>
+											<span id= 'milliExp'>100</span>
+										</p>
+									</div>
+								</div>
+								<canvas id= 'base4' style= 'background-color: #428C60; border: 10px solid #F60F97' width = '750' height= '500'></canvas>
+								<div>
+																
+							<p>
+										[Score -> R]
+										<br/><br/>
+										[Help -> H] 
+                                                                                <br/> <br/>	
+									</p>
+								</div>
+							</center>
+						</div>
+					</article>
+				</div>
+
+  <script type='text/javascript' src='javascript/expertLev.js'></script>
+</body>
+</html>
